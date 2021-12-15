@@ -1,0 +1,28 @@
+.navigation {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.navigation a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #dbd8e3;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  margin-right: 8px;
+  background: url("../assets/icons-light.svg");
+  background-repeat: no-repeat;
+}
